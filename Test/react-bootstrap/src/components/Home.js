@@ -20,18 +20,18 @@ export default class Home extends Component {
             <Image src="assets/late_night_dt.jpeg" className="header-image" />
             <Row className="show-grid text-center">
               <Col sx={12} sm={4} className="container-wrapper">
-                 <Image src="assets/night_lights" circle className="profile-pic" />
+                 <Image src="assets/burger.jpeg" circle className="profile-pic" />
                  <h3>Buy Quick Bites</h3>
                   <p>These options are Fast Food based</p>
                </Col>
             <Col sx={12} sm={4} className="container-wrapper">
-            <Image src="assets/night_lights" circle className="profile-pic" />
+            <Image src="assets/gourmet1.jpeg" circle className="profile-pic" />
             <h3>Give Me Gourmet</h3>
             <p>If you want more of a home cooked feel</p>
            </Col>
 
             <Col sx={12} sm={4} className="container-wrapper">
-            <Image src="assets/night_lights" circle className="profile-pic" />
+            <Image src="assets/tapas1.jpeg" circle className="profile-pic" />
             <h3>Try Some Tapas</h3>
             <p>Here you can choose light options</p>
            </Col>
