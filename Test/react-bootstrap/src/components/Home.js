@@ -11,28 +11,29 @@ export default class Home extends Component {
             <Grid>
             <Jumbotron>
             <h2>Welcome to LastCall</h2>
-        <p>This is a Restaurant App which gives suggestions for Late Night Restaurants </p>
+        <p>This is a Restaurant App that will give  suggestions for Late Night Restaurants </p>
         <Link to="/about">
-            <Button bsStyle="primary">About</Button>
+            <Button bsStyle="primary">Login</Button>
             </Link>
 
             </Jumbotron>
+            <Image src="assets/late_night_dt.jpeg" className="header-image" />
             <Row className="show-grid text-center">
               <Col sx={12} sm={4} className="container-wrapper">
                  <Image src="assets/night_lights" circle className="profile-pic" />
-                 <h3>Hungry</h3>
-                  <p>We can help you with that</p>
+                 <h3>Buy Quick Bites</h3>
+                  <p>These options are Fast Food based</p>
                </Col>
             <Col sx={12} sm={4} className="container-wrapper">
             <Image src="assets/night_lights" circle className="profile-pic" />
-            <h3>Hungry</h3>
-            <p>We can help you with that</p>
+            <h3>Give Me Gourmet</h3>
+            <p>If you want more of a home cooked feel</p>
            </Col>
 
             <Col sx={12} sm={4} className="container-wrapper">
             <Image src="assets/night_lights" circle className="profile-pic" />
-            <h3>Hungry</h3>
-            <p>We can help you with that</p>
+            <h3>Try Some Tapas</h3>
+            <p>Here you can choose light options</p>
            </Col>
               </Row>
 

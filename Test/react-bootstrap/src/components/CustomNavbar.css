@@ -29,3 +29,7 @@ navbar-default .nvbar-toggle .icon-bar {
 .navbar-default  .navbar-toggle: focus, .navbar-default .navbar-touch {
     background-color: transparent;
 }
+
+.navbar-default .navbar-brand {
+    color: orange;
+}

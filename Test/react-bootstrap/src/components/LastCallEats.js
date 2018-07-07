@@ -11,14 +11,14 @@ export default class LastCallEats extends Component {
             <div>
              <Image src="assets/atl_ga.jpeg" className="header-image" />
             <Grid>
-            <h2>Food</h2>
+            <h2>Food Selections</h2>
             <Row>
             <Col xs={12} sm={8} className="main-section">
             <p>Here are some great selections based on your favortie foods: Please choose some below</p>
             </Col>
             <Col xs={12} sm={4} className="sidebar-section">
-            <Image src="assets/night-lights.jpeg" />
-            <p> Here is why we want to be your number one late night food app in Atlanta. We offer selections without you having to search hight and low.</p>
+            <h2>LastCall Mission</h2>
+            <p> Here is why we want to be your number one late night food app in Atlanta. We offer selections without you having to search high and low.</p>
             </Col>
             </Row>
             </Grid>
