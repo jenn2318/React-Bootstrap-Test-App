@@ -31,7 +31,7 @@ export default class Home extends Component {
            </Col>
 
             <Col sx={12} sm={4} className="container-wrapper">
-            <Image src="assets/tapas1.jpeg" circle className="profile-pic" />
+            <Image src="assets/tapas3.jpeg" circle className="profile-pic" />
             <h3>Try Some Tapas</h3>
             <p>Here you can choose light options</p>
            </Col>
